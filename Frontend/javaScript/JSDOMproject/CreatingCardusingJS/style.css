@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(185, 226, 240);
+    
+}
+.card{
+    width: 300px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.card h1{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.card h4{
+     margin-top: 20px;
+     font-size: 20px;
+}
+.card p{
+    margin-top: 20px;
+    font-size: 15px;
+}

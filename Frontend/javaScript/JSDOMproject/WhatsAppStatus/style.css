@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(188, 230, 244);
+}
+.card{
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    position: relative;
+}
+.card .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.overlay .progress{
+    height: 2px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.progress .growth{
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.btm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.btm .rgt{
+    display: flex;
+    gap: 15px;
+}
+.rgt h6{
+    font-weight: 300;
+}
+.in{
+    color: white;
+}
+/* .overlay h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+} */
+.overlay .smCircle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    /* background-color: yellow; */
+}
+.smCircle img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: top;
+}
+.card .allstatus{
+    height: 350px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 5px;
+    overflow: auto;
+    border-top: 1.5px solid black;
+}
+.allstatus::-webkit-scrollbar{
+    display: none;
+}
+.allstatus .status{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.status-in{
+    pointer-events: none;
+}
+.status-in h5{
+    font-weight: 300;
+}
+.status img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 2px solid green;
+    pointer-events: none;
+}

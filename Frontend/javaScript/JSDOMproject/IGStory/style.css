@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(186, 229, 244);
+}
+.card{
+    height: 450px;
+    width: 330px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+}
+.card .nav{
+    height: 50px;
+    width: 100%;
+    padding: 10px 14px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .right{
+    display: flex;
+    gap: 22px;
+}
+.nav .right i{
+    font-size: 22px;
+}
+.storiyan{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 0px 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.storiyan h5{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.storiyan::-webkit-scrollbar{
+    display: none;
+}
+.storyAll{
+    height: 120px;
+    width:90px;
+    display: inline-block;
+    padding: 0px 7px;
+    text-align: center;
+    cursor: pointer;
+}
+.story{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background: linear-gradient(to right top, yellow, orange, red,pink);
+    padding: 3px;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px;
+    border: 3px solid #fff;
+}
+
+.full{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* display: flex;
+    gap: 5px; */
+}
+.full .progress{
+    height: 2px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.progress .growth{
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.btm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.btm .rgt{
+    display: flex;
+    gap: 8px;
+}
+.left i{
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.full h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.full h5 span{
+    color: grey;
+}
+.full .smCircle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    /* background-color: yellow; */
+}
+.smCircle img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: top;
+}

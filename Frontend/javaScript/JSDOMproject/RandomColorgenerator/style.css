@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.box{
+    height: 300px;
+    width: 270px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+button{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: rgb(34, 247, 80);
+    border-radius: 12px;
+}
+button:active{
+    scale: 0.90;
+}

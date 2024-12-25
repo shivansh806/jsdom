@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.box{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+}
+h1{
+    font-size: 150px;
+    color: #fff;
+    mix-blend-mode: difference;
+    transition: all ease 0.5s;
+}
